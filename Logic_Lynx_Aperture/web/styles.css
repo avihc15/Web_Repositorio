@@ -1,0 +1,414 @@
+body {
+  background-color: #f7f5f1;
+  font-family: Arial, sans-serif;
+}
+
+.barra {
+  background-color: #10131c;
+  padding: 16px 0;
+}
+
+.navbar-brand {
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.navbar-brand span,
+.navbar-brand i {
+  color: #f27763;
+}
+
+.nav-link {
+  color: #c7c7cc;
+}
+
+.nav-link:hover {
+  color: white;
+}
+
+.portada {
+  min-height: 500px;
+  padding: 120px 0;
+  color: white;
+  background: linear-gradient(100deg, #10131c, #38303a);
+}
+
+.texto-pequeno {
+  color: #f27763;
+  font-size: 13px;
+  letter-spacing: 3px;
+}
+
+.portada h1 {
+  margin: 25px 0 15px;
+  font-size: 56px;
+  font-weight: bold;
+}
+
+.portada h1 span {
+  color: #f27763;
+}
+
+.descripcion {
+  max-width: 450px;
+  color: #d0ced2;
+  line-height: 1.7;
+}
+
+.boton-portada {
+  margin-top: 15px;
+  padding: 12px 18px;
+  color: #171922;
+  background-color: #f27763;
+  font-weight: bold;
+}
+
+.boton-portada:hover {
+  color: #171922;
+  background-color: #ff927e;
+}
+
+.cartelera {
+  background-color: #f7f5f1;
+}
+
+.texto-seccion {
+  margin-bottom: 8px;
+  color: #a97669;
+  font-size: 13px;
+  font-weight: bold;
+  letter-spacing: 3px;
+}
+
+.cartelera h2 {
+  font-size: 38px;
+  font-weight: bold;
+}
+
+.cartelera h2 span {
+  color: #f27763;
+}
+
+.introduccion {
+  color: #777;
+}
+
+.pelicula {
+  overflow: hidden;
+  border: 0;
+  box-shadow: 0 4px 16px #17192215;
+}
+
+.pelicula img {
+  height: 300px;
+  object-fit: cover;
+}
+
+.pelicula .card-title {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.pelicula .card-text {
+  color: #777;
+  font-size: 14px;
+}
+
+.etiqueta {
+  color: #a45d50;
+  font-size: 11px;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+.sucursales {
+  background-color: white;
+}
+
+.sucursales h2 {
+  font-size: 38px;
+  font-weight: bold;
+}
+
+.sucursales h2 span {
+  color: #f27763;
+}
+
+.tarjeta-sucursal {
+  padding: 24px;
+  border: 1px solid #e8e6e2;
+  border-radius: 6px;
+  background-color: white;
+}
+
+.icono-sucursal {
+  color: #f27763;
+  font-size: 26px;
+}
+
+.tarjeta-sucursal h3 {
+  margin-top: 16px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.tarjeta-sucursal p {
+  color: #777;
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+.tarjeta-sucursal p i {
+  margin-right: 6px;
+  color: #b7834b;
+}
+
+.dulceria {
+  background-color: #f7f5f1;
+}
+
+.dulceria h2 {
+  font-size: 38px;
+  font-weight: bold;
+}
+
+.dulceria h2 span {
+  color: #f27763;
+}
+
+.producto {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  height: 100%;
+  padding: 16px;
+  border: 1px solid #e8e6e2;
+  border-radius: 6px;
+  background-color: white;
+}
+
+.icono-producto {
+  display: grid;
+  width: 60px;
+  height: 60px;
+  flex-shrink: 0;
+  place-items: center;
+  border-radius: 5px;
+  font-size: 28px;
+}
+
+.palomitas {
+  color: #d78355;
+  background-color: #fff1e7;
+}
+
+.refresco {
+  color: #658bab;
+  background-color: #edf3f7;
+}
+
+.nachos {
+  color: #c89537;
+  background-color: #fcf2d9;
+}
+
+.combo {
+  color: #a76e8c;
+  background-color: #f4eaf1;
+}
+
+.producto h3 {
+  margin: 0 0 5px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.producto p {
+  margin: 0;
+  color: #777;
+  font-size: 13px;
+}
+
+.producto strong {
+  margin-left: auto;
+  font-size: 15px;
+}
+
+.promociones {
+  background-color: #f7f5f1;
+}
+
+.promocion {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 30px;
+  padding: 40px;
+  border-radius: 6px;
+  color: white;
+  background-color: #c96e60;
+}
+
+.promocion h2 {
+  margin: 10px 0;
+  font-size: 42px;
+  font-weight: bold;
+}
+
+.promocion h2 span {
+  color: #ffd398;
+}
+
+.promocion p {
+  margin-bottom: 8px;
+}
+
+.promocion small {
+  color: #f5d4cc;
+  font-size: 12px;
+}
+
+.precio-promocion {
+  min-width: 160px;
+  padding-left: 30px;
+  border-left: 1px solid #ffffff66;
+}
+
+.precio-promocion span {
+  font-size: 12px;
+  letter-spacing: 2px;
+}
+
+.precio-promocion strong {
+  display: block;
+  font-size: 48px;
+}
+
+.precio-promocion p {
+  font-size: 14px;
+}
+
+@media (max-width: 600px) {
+  .promocion {
+    align-items: flex-start;
+    flex-direction: column;
+    padding: 28px;
+  }
+
+  .promocion h2 {
+    font-size: 34px;
+  }
+
+  .precio-promocion {
+    padding: 16px 0 0;
+    border-top: 1px solid #ffffff66;
+    border-left: 0;
+  }
+}
+
+.funciones {
+  color: white;
+  background-color: #141720;
+}
+
+.funciones h2 {
+  margin-bottom: 25px;
+  font-size: 38px;
+  font-weight: bold;
+}
+
+.funciones h2 span {
+  color: #f27763;
+}
+
+.fila-funcion {
+  display: grid;
+  grid-template-columns: 1.2fr 1fr 1.5fr;
+  align-items: center;
+  gap: 20px;
+  padding: 20px 0;
+  border-bottom: 1px solid #ffffff20;
+}
+
+.fila-funcion h3 {
+  margin: 0;
+  font-size: 18px;
+}
+
+.fila-funcion p {
+  margin: 6px 0 0;
+  color: #aaa;
+  font-size: 13px;
+}
+
+.sucursal-funcion {
+  color: #ddd;
+  font-size: 14px;
+}
+
+.sucursal-funcion i {
+  color: #f27763;
+}
+
+.horarios {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+}
+
+.horarios span {
+  padding: 8px 12px;
+  border: 1px solid #ffffff40;
+  border-radius: 4px;
+  font-size: 13px;
+}
+
+@media (max-width: 700px) {
+  .fila-funcion {
+    grid-template-columns: 1fr;
+    gap: 12px;
+  }
+
+  .horarios {
+    justify-content: flex-start;
+  }
+}
+
+.pie-pagina {
+  padding: 30px 0;
+  color: white;
+  background-color: #10131c;
+}
+
+.pie-contenido {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+.enlaces-pie {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 18px;
+}
+
+.enlaces-pie a {
+  color: #c7c7cc;
+  font-size: 14px;
+  text-decoration: none;
+}
+
+.enlaces-pie a:hover {
+  color: white;
+}
+
+.pie-contenido p,
+.pie-contenido small {
+  width: 100%;
+  margin: 0;
+  color: #999ba4;
+  font-size: 12px;
+}
